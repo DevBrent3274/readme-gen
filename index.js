@@ -9,12 +9,13 @@ let questions = [
   {
     type: "input",
     name: "title",
+    default: "<Your-Project-Title>",
     message: "What would you like to title your project?"
   },
   {
     type: "input",
     name: "description",
-    message: "What is your project description"
+    message: "Please provide a project description:"
   },
   {
     type: "input",
@@ -28,19 +29,27 @@ let questions = [
   },
   {
     type: "input",
-    name: "collaborators",
-    message: "Please list the collaborators?"
+    name: "credits",
+    message: "List any collaborators, third-party assest and tutorials here:"
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "For questions(email)?"
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "For questions(github)?"
   },
   {
     type: "list",
     name: "license",
     message: "Which license would you like?",
-    choices: ["MIT", "ISC","Apache"],
-    filter(val) {
-      return val.toLowerCase();
-    }
+    choices: ["MIT", "ISC","Apache"]
+    //filter(val) {
+    //  return val.toLowerCase(); origianlly used when user enter without drop list - left in fo rmy notes
   }
-
 ];
 
 // askingg the questions

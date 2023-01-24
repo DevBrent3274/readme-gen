@@ -2,18 +2,18 @@
   
 function renderLicenseBadge(license){
   const licenseBadge = {
-    apache: `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`,
-    isc: `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`, 
-    mit: `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+    Apache: `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`,
+    ISC: `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`, 
+    MIT: `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
   return licenseBadge[license]
 }
 
 function renderLicenseLink(license){
   const licenseLink = {
-    apache: `[Apache](https://opensource.org/licenses/Apache-2.0)`,
-    isc: `[ISC](https://opensource.org/licenses/ISC)`,
-    mit: `[MIT](https://opensource.org/licenses/MIT)`
+    Apache: `[Apache](https://opensource.org/licenses/Apache-2.0)`,
+    ISC: `[ISC](https://opensource.org/licenses/ISC)`,
+    MIT: `[MIT](https://opensource.org/licenses/MIT)`
   }
   return licenseLink[license]
 }
@@ -26,25 +26,24 @@ function generateReadMe(answers){
 
   ${renderLicenseBadge(answers.license)}
 
-  ## Table of Countents
-  - [Project description](#Description)
-  - [Usage](#Usage)
-  - [Collaborators](#Collaborators)
+  ## Description
+  ${answers.description}
+  
+  ## Table of Contents
   - [Insatllation](#Installation)
+  - [Usage](#Usage)
+  - [Credits](#Credits)
   - [Questions](#Questions)
   - [License](#License)
 
-  ## Description
-  ${answers.description}
-
+  ## Installation
+  ${answers.installation}
+  
   ## Usage
   ${answers.usage}
 
-  ## Installation
-  ${answers.instalation}
-
-  ## Collaborators
-  ${answers.collaborators}
+  ## Credits
+  ${answers.credits}
 
   # Questions
   ${answers.email}
