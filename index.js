@@ -35,7 +35,7 @@ let questions = [
     type: "list",
     name: "license",
     message: "Which license would you like?",
-    choices: ["MIT", "ISC",],
+    choices: ["MIT", "ISC","Apache"],
     filter(val) {
       return val.toLowerCase();
     }
@@ -43,10 +43,13 @@ let questions = [
 
 ];
 
+// askingg the questions
 function askQuestions(){
    return inquirer.prompt(questions)
     .then((answers) => {
+      // calling function to populate ReadMe with answers
       const markDown = generateReadMe(answers)
+      // writing and savinf the ReadMe file
       fs.writeFile('README.md', markDown, function(err) {
         if(err) {
           console.log('Could not save file', err)
@@ -60,4 +63,5 @@ function askQuestions(){
     })
 }
 
+// 
 askQuestions()
