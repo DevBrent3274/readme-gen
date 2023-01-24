@@ -1,31 +1,31 @@
 
     
-  # efwef
+  # ReadMe Generator
 
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  efwefw
+  Creates a README.md file
   
   ## Table of Contents
-  - [Insatllation](#Installation)
+  - [Installation](#Installation)
   - [Usage](#Usage)
   - [Credits](#Credits)
   - [Questions](#Questions)
   - [License](#License)
 
   ## Installation
-  efwefw
+  run <node index.js> in the command line
   
   ## Usage
-  efwefw
+  to create a read me file quickly
 
   ## Credits
-  efwefw
+  NA
 
   # Questions
-  efwfe
-  efw
+  your email here
+  your github here
 
   ## License
   Apache

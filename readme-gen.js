@@ -30,7 +30,7 @@ function generateReadMe(answers){
   ${answers.description}
   
   ## Table of Contents
-  - [Insatllation](#Installation)
+  - [Installation](#Installation)
   - [Usage](#Usage)
   - [Credits](#Credits)
   - [Questions](#Questions)
