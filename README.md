@@ -1,33 +1,48 @@
+# README Generator
 
-    
-  # ReadMe Generator
+## Description
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+This application will quickly create a README.md file for a users aplication.
 
-  ## Description
-  Creates a README.md file
-  
-  ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Credits](#Credits)
-  - [Questions](#Questions)
-  - [License](#License)
+## User Story
 
-  ## Installation
-  run <node index.js> in the command line
-  
-  ## Usage
-  to create a read me file quickly
+```
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
 
-  ## Credits
-  NA
+## Acceptance Criteria
 
-  # Questions
-  your email here
-  your github here
+```
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
+```
 
-  ## License
-  Apache
-  [Apache](https://opensource.org/licenses/Apache-2.0)
+## Mock-Up
+
+The following video demonstrates the application functionality:
+This can be found in the video file in this repo.
+
+![A user enters information from prompts through the command line in the terminal and a README.md file for the project is created.](./video/readme-gen.MP4/)
+
+
+## Sources
+
+All reference materials were sourced from the University of Minnesota boot camp program
+
+© 2023 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
   
