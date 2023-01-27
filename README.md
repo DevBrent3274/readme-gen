@@ -31,13 +31,16 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+## Github is not hosting my video, so please find link here:
+
+![Click here to go to google link for video](https://drive.google.com/file/d/1hU9lK_RAjdEafJzGgwtKM5i5EdEvwdtN/view?usp=sharing)
 
 ## Mock-Up
 
 The following video demonstrates the application functionality:
 This can be found in the video file in this repo.
 
-![A user enters information from prompts through the command line in the terminal and a README.md file for the project is created.](https://github/DevBrent3274/readme-gen/blob/main/video/readme-gen.MP4?raw=true)
+![This links to the file but Github will not host for some reason.](./video/readme-gen.MP4)
 
 ## Sources
 
