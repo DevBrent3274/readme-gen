@@ -31,9 +31,9 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-## Github is not hosting my video, so please find link here:3
+## Github is not hosting my video, so please find link here:
 
-![Click here to go to google link for video](https://drive.google.com/file/d/1hU9lK_RAjdEafJzGgwtKM5i5EdEvwdtN/view?usp=sharing)
+https://drive.google.com/file/d/1hU9lK_RAjdEafJzGgwtKM5i5EdEvwdtN/view?usp=sharing
 
 ## Mock-Up
 
