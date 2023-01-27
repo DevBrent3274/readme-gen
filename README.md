@@ -37,8 +37,7 @@ THEN I am taken to the corresponding section of the README
 The following video demonstrates the application functionality:
 This can be found in the video file in this repo.
 
-![A user enters information from prompts through the command line in the terminal and a README.md file for the project is created.](./video/readme-gen.MP4)
-
+![A user enters information from prompts through the command line in the terminal and a README.md file for the project is created.](https://github/DevBrent3274/readme-gen/blob/main/video/readme-gen.MP4?raw=true)
 
 ## Sources
 
