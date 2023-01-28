@@ -40,7 +40,7 @@ https://drive.google.com/file/d/1hU9lK_RAjdEafJzGgwtKM5i5EdEvwdtN/view?usp=shari
 The following video demonstrates the application functionality:
 This can be found in the video file in this repo.
 
-![This links to the file but Github will not host for some reason.](./video/readme-gen.MP4)
+[![Watch the video](https://user-images.githubusercontent.com/115671558/215230235-599f91e5-19b8-4326-922f-2a4aa43dc07b.png)](https://drive.google.com/file/d/1hU9lK_RAjdEafJzGgwtKM5i5EdEvwdtN/view?usp=sharing)
 
 ## Sources
 
